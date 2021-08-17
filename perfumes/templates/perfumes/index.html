@@ -1,0 +1,382 @@
+{% extends 'main.html' %}
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+{% block content %}
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static 'images/ss.jpg' %}"  class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+        <h1>FRAGRANCE ARABIA</h1>
+          <h3>Your destination of finer fragrances </h3>
+          <a href="#"><button class="btn">Our Catalog</button></a>
+          <a href="#"><button class="btn">Browse Shop</button></a>
+        </div>
+      </div>
+  
+      <div class="carousel-item">
+        <img src="{% static 'images/Ra.jpg' %}" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block"></div>
+        <div class="carousel-caption d-none d-md-block">
+          <h1>JUNAID PERFUMES</h1>
+          <h3>Sophisticated & Alluring</h3>
+          <a href="#"><button class="btn">Our Catalog</button></a>
+          <a href="#"><button class="btn">Browse Shop</button></a>
+        </div>
+      </div>
+    </div>
+   
+  </div> 
+
+<br>
+<hr>
+<section class="arrival" id="arrival">
+
+    <h1 class="heading">OUR PICKS FOR YOU </h1>
+    <div class="box-container">
+
+
+        <div class="box">
+            <div class="image">
+              <img src="{% static 'images/rafa.png' %}">  
+              </div> 
+            <div class="info">
+                <h3>Rafa-For Him & Her-
+                   50ml</h3>
+                <div class="subInfo">
+                    <strong class="price">$50.00 </strong>
+            <a href="#"><button class="btn">Add To Cart</button></a>
+                </div>
+            </div>
+            <div class="overlay">
+              <img src="{% static 'images/p.jpg' %}">
+            </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+          <img src="{% static 'images/gold.jpg' %}">
+          </div>
+          <div class="info">
+          <h3>Badiah Gold-For Her-100 ml</h3>
+          <div class="subInfo">
+              <strong class="price">$65.00 </strong>
+                  <a href="#"><button class="btn">Add To Cart</button></a>
+          </div>
+          </div>
+          <div class="overlay">
+             <img src="{% static 'images/gold1.jpg' %}">
+          </div>
+          </div>
+          
+          <div class="box">
+          <div class="image">
+          <img src="{% static 'images/Atlal1.jpg' %}">
+          </div>
+          <div class="info">
+          <h3>Atlal-For Him-100 ml</h3>
+          <div class="subInfo">
+              <strong class="price"> $42.00 </strong>
+              <a href="#"><button class="btn">Add To Cart</button></a>
+          </div>
+          </div>
+          <div class="overlay"> 
+          <img src="{% static 'images/Atlal2.jpg' %}">
+          </div>
+          </div>
+          
+          <div class="box">
+              <div class="image">
+                  
+                  <img src="{% static 'images/musk.jpg' %}">
+              </div>
+              <div class="info">
+                  <h3>Musk Oil For Men - For Him - 100 ML</h3>
+          <div class="subInfo">
+          <strong class="price">$55.00 </strong>
+          <a href="#"><button class="btn">Add To Cart</button></a>
+          </div>
+          </div>
+          <div class="overlay">
+          <img src="{% static 'images/Musk1.jpg' %}">
+          </div>
+          </div>
+          
+          <div class="box">
+              <div class="image">
+                  
+                  <img src="{% static 'images/thulooj.jpg' %}">
+              </div>
+              <div class="info">
+                  <h3>Thulooj - For Her - 100 Ml</h3>
+          <div class="subInfo">
+          <strong class="price">$35.00 </strong>
+          <a href="#"><button class="btn">Add To Cart</button></a>
+          </div>
+          </div>
+          <div class="overlay">
+          <img src="{% static 'images/th.jpg' %}">
+          </div>
+          </div>
+          
+          <div class="box">
+              <div class="image">
+                  
+                  <img src="{% static 'images/MuskCollection.jpg' %}">
+              </div>
+              <div class="info">
+                  <h3>Musk Collection-For Him & Her-50ml</h3>
+          <div class="subInfo">
+          <strong class="price">$50.00 </strong>
+          <a href="#"><button class="btn">Add To Cart</button></a>
+          </div>
+          </div>
+
+    </div>
+
+    <h1 class="heading"> <span>ENHANCE YOUR SENSES</span> </h1>
+    
+    <div class="box-container">
+    <div class="box">
+        <div class="image">
+            
+            <img src="{% static 'images/R.jpg' %}">
+        </div>
+        <div class="overlay">
+            <a href="#"><button class="btn">FRAGRANCE SPRAYS</button></a>
+            </div>
+    </div>
+
+    <div class="box">
+                <div class="image">
+                    
+                    <img src="{% static 'images/OIP.jpg' %}">
+                </div>
+                <div class="overlay">
+                    <a href="#"><button class="btn">FRAGRANCE OILS</button></a>
+                    </div>
+    </div>
+            
+            <div class="box">
+                    <div class="image">
+                            
+                            <img src="{% static 'images/baiaa.jpg' %}">
+                        </div>
+                        <div class="overlay">
+                            <a href="#"><button class="btn">GEL AND CREAMS</button></a>
+                          </div>
+             </div>  
+             
+               
+             <div class="box">
+                <div class="image">
+                        
+                        <img src="{% static 'images/sample.jpg' %}">
+                    </div>
+                    <div class="overlay">
+                        <a href="#"><button class="btn">NEW</button></a>
+                      </div>
+         </div>
+    </div>
+</section>
+
+<hr>
+
+
+<section class="deal" id="deal">
+
+    <h1 class="heading"> <span> best deals </span> </h1>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <img src="{% static 'images/ihsaas.jpg' %}">
+            <div class="content">
+                <h3>BAKHOOR AND MAMOOL</h3>
+                <p>Explore Fragrance Arabia collection of<br> home incense and bakhoor</p>
+                <a href="#"><button class="btn">OUR INCENSE & BAKHOORS</button></a>
+            </div>
+        </div>
+    
+        <div class="box">
+            <img src="{% static 'images/b.jpg' %}">
+            <div class="content">
+                <h3>OUR SEASONAL FRAGRANCE</h3>
+                <p>See our recommendations for the season</p>
+                <a href="#"><button class="btn">SHOP NOW</button></a>
+            </div>
+        </div>
+    
+    </div>
+    
+
+    <div class="row">
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="{% static 'images/u.jpg' %}">
+                <div class="content">
+                    <h3>GIFT SETS</h3>
+                    <p>Gift your loved ones with something<br> new and different</p>
+                    <a href="#"><button class="btn">SHOP NOW</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<br>
+<hr>
+
+<!-- Footer -->
+<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Content -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Our Collections</h5>
+                <p>
+                    <a href="#deal"!>Incense & Bakhoor</a>
+                </p>
+                <p>
+                    <a href="#deal"!>Fragrance Oils</a>
+                </p>
+                <p>
+                    <a href="#deal"!>Fragrance Sprays</a>
+                </p>
+                <p>
+                    <a href="#arrival"!>NEW</a>
+                </p>
+                <p>
+                    <a href="#arrival"!>Gel and Creams</a>
+                </p>
+                <p>
+                    <a href="#arrival"!>Samples</a>
+                </p>
+                <p>
+                    <a href="#deal"!>Gift Set</a>
+                </p>
+               
+         </div>
+        <br>
+        <br>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Links -->
+          <h5 class="font-weight-bold text-uppercase mb-4">POLICIES</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <a href="#!">Delivery Information</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">Damaged or Defective Policy</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">Privacy Policy</a>
+              </p>
+            </li>
+            <li>
+              <p>
+                <a href="#!">Terms of Services</a>
+              </p>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+  
+          <!-- Contact details -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <i class="fas fa-home mr-3">Fragrance Arabia 4264-I Entre Court Chantilly, VA. 20151 United States of America</i></p>
+            </li>
+           <li>
+              <p>
+                <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+            </li>
+            <li>
+              <p>
+                <i class="fas fa-phone mr-3"></i> +1 703-863-6071</p>
+            </li>
+            
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none">
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+  
+          <!-- Social buttons -->
+          <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+  
+          <!-- Facebook -->
+          <a type="button" class="btn-floating btn-fb">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <!-- Twitter -->
+          <a type="button" class="btn-floating btn-tw">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- Google +-->
+          <a type="button" class="btn-floating btn-gplus">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+          <!-- Dribbble -->
+          <a type="button" class="btn-floating btn-dribbble">
+            <i class="fab fa-dribbble"></i>
+          </a>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <a href="#">© 2021 Fragrance Arabia. All Rights Reserved. </a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+{% endblock content %}

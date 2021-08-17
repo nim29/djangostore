@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+:root{
+    --blue: #000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+*::selection{
+    background:green;
+    color:cornsilk;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.btn{
+    height: 4rem;
+    width: 21rem;
+    display: inline-block;
+    background-color: #D48E18;
+    color: black;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.navbar{
+    background-color: #F6F5D7;
+    margin:0%;
+    padding: 0%;
+    border: 1px solid rgb(238, 232, 232);
+}
+ .navbar ul li a{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    color:yellow;
+}
+
+.navbar .icons a{
+    color: rgb(148, 26, 26);
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.arrival{
+    min-height: 100vh;
+}
+.arrival .heading{
+    align-content: center;
+}
+
+.arrival .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    width: 85%;
+    margin:0 auto;
+}
+
+.arrival .box-container .box{
+    flex:1 1 30rem;
+    border:.1rem solid rgba(226, 41, 41, 0.3);
+    overflow: hidden;
+    position: relative;
+    margin:1rem 2rem;
+}
+
+.arrival .box-container .box .image{
+    height: 20rem;
+    padding:2rem;
+    text-align: center;
+    background:#f0f0f0;
+}
+
+.arrival .box-container .box .image img{
+    height: 130%;
+    object-fit: cover;
+}
+
+.arrival .box-container .box .info h3{
+    padding:1rem;
+    font-size: 2rem;
+    color:var(--blue);
+}
+
+.arrival .box-container .box .info .subInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem;
+    border-top: .1rem solid rgba(0,0,0,.3);
+}
+
+.arrival .box-container .box .info .subInfo .price{
+    color:#0c0706;
+    font-size: 2rem;
+}
+
+.arrival .box-container .box .info .subInfo .price span{
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+
+.arrival .box-container .box .info .subInfo .stars i{
+    color:orange;
+    font-size: 1.5rem;
+}
+
+.arrival .box-container .box .overlay{
+    position: absolute;
+    top: 0; left: 0;
+    height:20rem;
+    width: 100%;
+    background:rgba(0,0,0,.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+}
+
+.arrival .box-container .box:hover .overlay{
+    transform: scale(1);
+}
+
+.arrival .box-container .box .overlay a{
+    font-size: 2rem;
+    padding:1.5rem 2rem;
+    background:#fff;
+    color:#666;
+    margin:1rem;
+    transform: translateY(-15rem);
+    transition-delay: calc(.1s * var(--i));
+}
+
+.arrival .box-container .box:hover .overlay a{
+    transform: translateY(0rem);
+}
+
+.arrival .box-container .box .overlay a:hover{
+    color:var(--blue);
+}
+
+
+.deal{
+    min-height: 100vh;
+}
+
+.deal .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.deal .box-container .box{
+    flex:1 1 40rem;
+    height: 25rem;
+    margin:2rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.deal .box-container .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.deal .box-container .box .content{
+    position: absolute;
+    top:55%; left: 3rem;
+    transform:translateY(-50%);
+}
+
+.deal .box-container .box .content h3{
+    font-size: 3.5rem;
+    color:#fff;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+}
+
+.deal .box-container .box .content p{
+    font-size: 2rem;
+    color:rgb(219, 130, 13);
+}
+
+.deal .box-container .box .content .btn{
+    margin:1.2rem 0;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 130px;
+    padding: 15px;
+    background-color: #160c6b;
+}
+
+.page-footer{
+    background: #dfd9d9;
+    color: #ca8911;
+    height: 350px;
+    position: relative;
+}
+
+.page-footer .container {
+    height: 350px;
+    display: flex;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.5rem;
+  }
+  .page-footer .container h5{
+    color: rgb(214, 149, 10);
+    font-size: 2rem;
+  }
+
+  .page-footer .container .p a{
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+  }
+
+  .page-footer .container .p a:hover {
+    color: rgb(156, 25, 25);
+    margin-left: 15px;
+    transition: all .3s;
+  }
